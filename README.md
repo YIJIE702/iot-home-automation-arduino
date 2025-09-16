@@ -22,6 +22,7 @@ The project leverages **Arduino (NodeMCU ESP8266)** with sensors and actuators t
 ## ⚙️ **Methodology**
 ### 🔹 **Block Diagram**
 <img width="445" height="472" alt="image" src="https://github.com/user-attachments/assets/907d51b1-b07f-452c-b905-1d09960d7518" />
+
 - **Core Controller:** NodeMCU ESP8266 WiFi Module  
 - **Sensors:**  
   - LDR (Light Intensity)  
@@ -36,6 +37,7 @@ The project leverages **Arduino (NodeMCU ESP8266)** with sensors and actuators t
 
 ### 🔹 **Flowchart**
 <img width="680" height="702" alt="image" src="https://github.com/user-attachments/assets/e0dbcfef-f87a-42e7-8456-d722467eea69" />
+
 1. User logs in to the MIT App Inventor app.  
    - Wrong password → *Access Denied*.  
    - Correct password → *Welcome Back!* → Access to monitoring dashboard.  
@@ -57,6 +59,7 @@ The project leverages **Arduino (NodeMCU ESP8266)** with sensors and actuators t
 - **MIT App Inventor**: Provides user interface with password authentication.  
 
 ## **Schematic Diagram
+
 **<img width="943" height="553" alt="image" src="https://github.com/user-attachments/assets/fc14ffcd-a952-41ed-8810-46c260e1f0f3" />
 
 ---
@@ -79,18 +82,15 @@ The system is **low-cost, eco-friendly, and reliable**, with potential to expand
 ---
 
 ## 🛠️ How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/iot-home-automation.git
-2. Open the project in Arduino IDE.
-3. Install required libraries:
+1. Open the project in Arduino IDE.
+2. Install required libraries:
 - ESP8266WiFi
 - FirebaseESP8266
 - DHT sensor library
 - LiquidCrystal_I2C
-4. Flash the code to your NodeMCU ESP8266 board.
-5. Connect your hardware components as per the circuit diagram.
-6. Open the MIT App Inventor app and connect it to Firebase.
+3. Flash the code to your NodeMCU ESP8266 board.
+4. Connect your hardware components as per the circuit diagram.
+5. Open the MIT App Inventor app and connect it to Firebase.
 
 ---
 
