@@ -58,9 +58,9 @@ The project leverages **Arduino (NodeMCU ESP8266)** with sensors and actuators t
 - **I2C 20x4 LCD**: Displays all monitoring conditions (temperature, humidity, light level, door, bulb, curtain).  
 - **MIT App Inventor**: Provides user interface with password authentication.  
 
-## **Schematic Diagram
+## **Schematic Diagram**
 
-**<img width="943" height="553" alt="image" src="https://github.com/user-attachments/assets/fc14ffcd-a952-41ed-8810-46c260e1f0f3" />
+<img width="943" height="553" alt="image" src="https://github.com/user-attachments/assets/fc14ffcd-a952-41ed-8810-46c260e1f0f3" />
 
 ---
 
